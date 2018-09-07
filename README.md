@@ -1,2 +1,0 @@
-# graduate-project
-Graduate project
