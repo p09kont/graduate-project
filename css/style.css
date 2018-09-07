@@ -1,0 +1,92 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25 Απρ 2018, 10:30:15 πμ
+    Author     : User
+*/
+
+td.details-control {
+    background: url('../resources/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('../resources/details_close.png') no-repeat center center;
+}
+
+#theId{
+    display: none;
+}
+
+#prof2Id{
+    display: none;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+
+#professorsCrads.card{
+
+    margin: 20px;
+    border: 2px solid #ccc;
+
+}
+
+#professorsCrads.card:hover {
+    border: 2px solid #777;
+}
+
+.container{
+    margin-top: 80px;
+}
+
+#aggregateTable{
+    width: 60%;
+}
+
+
+
+/*.media{
+    border: 1px solid #007bff;
+    border-radius: 5px;
+}
+.media img{
+    margin: 25px;
+}
+.media-body{
+    margin: 15px;
+}*/
+
+hr{
+    background: #007bff;
+}
+.o-hidden {
+    overflow: hidden !important;
+}
+
+.card-body-icon {
+    position: absolute;
+    z-index: 0;
+    top: -1.25rem;
+    right: -1rem;
+    opacity: 0.4;
+    font-size: 5rem;
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+.z-1 {
+    z-index: 1;
+}
+.footer{
+    height: 70px;
+    bottom: 0;
+    background-color: #efefef;
+    text-align: center;
+}
+.fotterContent{
+    padding-top: 10px;
+}

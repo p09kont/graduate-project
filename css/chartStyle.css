@@ -1,0 +1,87 @@
+.line1{
+    stroke: orange;
+    stroke-width: 3;
+    fill: none;
+}
+
+.line2{
+    stroke: #66ff33;
+    stroke-width: 2;
+    fill: none;
+
+}
+
+.publsLine{
+    stroke: blue;
+    stroke-width: 3;
+    fill: none;
+}
+
+.axis path, .axis line{
+    fill: none;
+    stroke: black;
+    stroke-width: 2;
+    shape-rendering: crispEdges;
+}
+.dot{
+    fill: blue;
+}
+
+
+.dot2 {
+    fill: #66ff33;
+}
+.h-index{
+    fill: red;
+}  
+
+.tick line{
+    opacity: 0.2;
+    stroke-width: 1;
+}
+
+.tooltip {
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border: 3px solid blue;
+    background-color: white;
+    opacity: 0.8;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+.hiddenTooltip {
+    display: none;
+}
+
+#nodeToltip.hidden{
+    display: none;
+}
+
+#linkTooltip p {
+    margin: 0;
+    /*font-family: sans-serif;*/
+    font-size: 12px;
+    line-height: 16px;
+}
+
+#nodeTooltip p{
+    margin: 0;
+    /*font-family: sans-serif;*/
+    font-size: 12px;
+    line-height: 16px;
+}
+.link{
+    stroke: #ccc;
+    cursor: pointer;
+}
+.node{
+    cursor: pointer;
+}
